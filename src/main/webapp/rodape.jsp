@@ -13,6 +13,6 @@ p.roda {
 <body>
 	<br />
 	<hr />
-	<p class="roda">Copyright 2004 - All rights reserved.</p>
+	<p class="roda">Copyright 2022 - All rights reserved.</p>
 </body>
 </html>
