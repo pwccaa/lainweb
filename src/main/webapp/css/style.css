@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+html * {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+input{
+	color: black;
+}
+
+body {
+	background-image: url("res/windF.gif");
+	background-repeat: repeat;
+}
+
+.content {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 0;
+	height: 100vh;
+}
+
+.container {
+	width: 100%; /* Can be in percentage also. */
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+	max-width: 700px;
+}
+
+.vertical-center {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 100px;
+	max-width: 500px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border-radius: 12px;
+}
+
+.imagem {
+	border-radius: 12px;
+	width: 100%;
+}
+
+/*
+textarea:focus, input:focus {
+    color: #000000;
+}
+
+input, select, textarea{
+    color: #000000;
+}
+*/

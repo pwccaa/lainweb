@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+	version="5.0">
+
+	<display-name>fj21-agenda</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>servletOiMundo</servlet-name>
+		<servlet-class>br.com.caelum.servlet.OiMundo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletOiMundo</servlet-name>
+		<url-pattern>/oi</url-pattern>
+	</servlet-mapping>
+	<error-page>
+	<exception-type>java.lang.RuntimeException</exception-type>
+	<location>/erro.html</location>
+	</error-page>
+	<error-page>
+	<error-code>404</error-code>
+	<location>/404.html</location>
+	</error-page>
+</web-app>
