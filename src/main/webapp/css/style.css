@@ -6,7 +6,7 @@ html * {
 	color: #fff;
 }
 
-input{
+input {
 	color: black;
 }
 
@@ -24,9 +24,9 @@ body {
 
 .container {
 	width: 100%; /* Can be in percentage also. */
-    height: 100%;
-    margin: 0 auto;
-    padding: 10px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px;
 	max-width: 700px;
 }
 
@@ -47,6 +47,13 @@ body {
 	width: 100%;
 }
 
+form {
+	margin: 0 auto;
+	width: 150px;
+}
+h1.add {
+	text-align: center;
+}
 /*
 textarea:focus, input:focus {
     color: #000000;

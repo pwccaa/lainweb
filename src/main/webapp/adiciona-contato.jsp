@@ -10,21 +10,21 @@
 	<style>
 		<%@include file="/css/style.css" %>
 	</style>
-	<title>Insert title here</title>
+	<title>Add you contact</title>
 </head>
 <body>
 	<div class="content">
 		<div class="container">
 	    	<div class="vertical-center">
 				<c:import url="cabecalho.jsp" />
-				<h1>Add contacts</h1>
+				<h1 class="add">Add contacts</h1>
 				<br/>
 				<form action="adicionaContato">
-					Nome: <input type="text" name="nome" /><br /> E-mail: <input
-						type="text" name="email" /><br /> Endereço: <input type="text"
-						name="endereco" /><br /> Data Nascimento:
-					<caelum:campoData id="dataNascimento" />
-					<br /> <input type="submit" value="Gravar" />
+					<input type="text" name="nome" placeholder="Name" /><br />
+					<input type="text" name="email" placeholder="Email" /><br />
+					<input type="text" name="endereco" placeholder="Address"/><br />
+					<input type="text" name="dataNascimento" placeholder="BirthDate dd/mm/yyyy"/><br />
+					<input type="submit" value="Submit" />
 				</form>
 				<c:import url="rodape.jsp" />
 	    	</div>
