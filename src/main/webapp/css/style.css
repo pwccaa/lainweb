@@ -6,20 +6,39 @@ html * {
 	color: #fff;
 }
 
+form {
+	margin: 0 auto;
+	width: 300px;
+}
+
 input {
 	color: black;
+	width: 98%;
+	height: 35px;
+	border-color: rgb(210, 115, 138);
+	text-align: center;
+	border-width: 3px;
+}
+
+input.submit {
+	color: black;
+	width: 150px;
+	height: 40px;
+	margin-left: 25%;
 }
 
 body {
 	background-image: url("res/windF.gif");
 	background-repeat: repeat;
+	max-width: 100%;
+  	height: auto;
 }
 
 .content {
 	width: 50%;
 	margin: 0 auto;
 	margin-top: 0;
-	height: 100vh;
+	height: 100%;
 }
 
 .container {
@@ -35,22 +54,19 @@ body {
 	padding: 100px;
 	max-width: 500px;
 	margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 	border-radius: 12px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .imagem {
 	border-radius: 12px;
 	width: 100%;
+
 }
 
-form {
-	margin: 0 auto;
-	width: 150px;
-}
 h1.add {
 	text-align: center;
 }

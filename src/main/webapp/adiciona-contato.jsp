@@ -8,6 +8,9 @@
 	<script src="js/jquery-ui.js"> </script>
 	<meta charset="ISO-8859-1" />
 	<style>
+		html * {
+			overflow: hidden;
+		}
 		<%@include file="/css/style.css" %>
 	</style>
 	<title>Add you contact</title>
@@ -20,11 +23,11 @@
 				<h1 class="add">Add contacts</h1>
 				<br/>
 				<form action="adicionaContato">
-					<input type="text" name="nome" placeholder="Name" /><br />
-					<input type="text" name="email" placeholder="Email" /><br />
-					<input type="text" name="endereco" placeholder="Address"/><br />
-					<input type="text" name="dataNascimento" placeholder="BirthDate dd/mm/yyyy"/><br />
-					<input type="submit" value="Submit" />
+					<input type="text" name="nome" placeholder=" Name" /><br />
+					<br><input type="text" name="email" placeholder=" Email" /><br />
+					<br><input type="text" name="endereco" placeholder=" Address"/><br />
+					<br><input type="text" name="dataNascimento" placeholder=" BirthDate dd/mm/yyyy"/><br />
+					<br><input class="submit" type="submit" value="Submit" />
 				</form>
 				<c:import url="rodape.jsp" />
 	    	</div>
