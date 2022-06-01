@@ -4,6 +4,7 @@ html * {
 	margin: 0;
 	padding: 0;
 	color: #fff;
+	text-decoration: none;
 }
 
 form {
@@ -14,10 +15,18 @@ form {
 input {
 	color: black;
 	width: 98%;
-	height: 35px;
+	height: 5vh;
 	border-color: rgb(210, 115, 138);
 	text-align: center;
 	border-width: 3px;
+}
+
+table {
+	width: 100%
+}
+
+.addcontact{
+	text-align:center;
 }
 
 input.submit {
@@ -31,7 +40,7 @@ body {
 	background-image: url("res/windF.gif");
 	background-repeat: repeat;
 	max-width: 100%;
-  	height: auto;
+  height: auto;
 }
 
 .content {

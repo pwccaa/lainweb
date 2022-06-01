@@ -7,6 +7,10 @@ public class Contato {
 	private String nome, endereco, email;
 	private long id;
 
+	public Contato() {
+	
+	}
+	
 	public Contato(String nome, String endereco, String email, Calendar dataNascimento) {
 		this.nome = nome;
 		this.endereco = endereco;
